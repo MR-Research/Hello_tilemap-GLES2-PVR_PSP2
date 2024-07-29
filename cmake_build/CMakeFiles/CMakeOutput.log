@@ -11,7 +11,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/mrrobot/repos/Hello_texture-GLES2-PVR_PSP2/cmake_build/CMakeFiles/3.21.3/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/mrrobot/repos/Hello_tilemap-GLES2-PVR_PSP2/cmake_build/CMakeFiles/3.22.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/local/vitasdk/bin/arm-vita-eabi-g++ 
@@ -24,15 +24,15 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/mrrobot/repos/Hello_texture-GLES2-PVR_PSP2/cmake_build/CMakeFiles/3.21.3/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/mrrobot/repos/Hello_tilemap-GLES2-PVR_PSP2/cmake_build/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/mrrobot/repos/Hello_texture-GLES2-PVR_PSP2/cmake_build/CMakeFiles/CMakeTmp
+Change Dir: /home/mrrobot/repos/Hello_tilemap-GLES2-PVR_PSP2/cmake_build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_048bf/fast && /usr/bin/make  -f CMakeFiles/cmTC_048bf.dir/build.make CMakeFiles/cmTC_048bf.dir/build
-make[1]: Entering directory '/home/mrrobot/repos/Hello_texture-GLES2-PVR_PSP2/cmake_build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_048bf.dir/CMakeCCompilerABI.c.obj
-/usr/local/vitasdk/bin/arm-vita-eabi-gcc   -Wl,-q    -v -o CMakeFiles/cmTC_048bf.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_151fc/fast && /usr/bin/make  -f CMakeFiles/cmTC_151fc.dir/build.make CMakeFiles/cmTC_151fc.dir/build
+make[1]: Entering directory '/home/mrrobot/repos/Hello_tilemap-GLES2-PVR_PSP2/cmake_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_151fc.dir/CMakeCCompilerABI.c.obj
+/usr/local/vitasdk/bin/arm-vita-eabi-gcc   -Wl,-q    -v -o CMakeFiles/cmTC_151fc.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/usr/local/vitasdk/bin/arm-vita-eabi-gcc
 Target: arm-vita-eabi
@@ -40,8 +40,8 @@ Configured with: /__w/autobuilds/autobuilds/buildscripts/build/gcc-final-prefix/
 Thread model: posix
 Supported LTO compression algorithms: zlib
 gcc version 10.3.0 (GNU Tools for ARM Embedded Processors) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_048bf.dir/CMakeCCompilerABI.c.obj' '-c'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd'
- /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/cc1 -quiet -v -iprefix /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/ -isysroot /usr/local/vitasdk/bin/../arm-vita-eabi -D__USES_INITFINI__ /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=cortex-a9 -mfloat-abi=hard -mfpu=neon -mthumb -march=armv7-a+simd -auxbase-strip CMakeFiles/cmTC_048bf.dir/CMakeCCompilerABI.c.obj -version -o /tmp/ccaQkq6H.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_151fc.dir/CMakeCCompilerABI.c.obj' '-c'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd'
+ /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/cc1 -quiet -v -iprefix /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/ -isysroot /usr/local/vitasdk/bin/../arm-vita-eabi -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=cortex-a9 -mfloat-abi=hard -mfpu=neon -mthumb -march=armv7-a+simd -auxbase-strip CMakeFiles/cmTC_151fc.dir/CMakeCCompilerABI.c.obj -version -o /tmp/ccnSDctY.s
 GNU C17 (GNU Tools for ARM Embedded Processors) version 10.3.0 (arm-vita-eabi)
 	compiled by GNU C version 4.8.4, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
 
@@ -62,15 +62,15 @@ GNU C17 (GNU Tools for ARM Embedded Processors) version 10.3.0 (arm-vita-eabi)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 6ade31a181c7c240fa70aa86dad5aa64
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_048bf.dir/CMakeCCompilerABI.c.obj' '-c'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd'
- /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_048bf.dir/CMakeCCompilerABI.c.obj /tmp/ccaQkq6H.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_151fc.dir/CMakeCCompilerABI.c.obj' '-c'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd'
+ /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_151fc.dir/CMakeCCompilerABI.c.obj /tmp/ccnSDctY.s
 GNU assembler version 2.34 (arm-vita-eabi) using BFD version (GNU Tools for ARM Embedded Processors) 2.34
 COMPILER_PATH=/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/:/usr/local/vitasdk/bin/../lib/gcc/:/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/bin/
 LIBRARY_PATH=/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/:/usr/local/vitasdk/bin/../lib/gcc/:/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/lib/:/usr/local/vitasdk/bin/../arm-vita-eabi/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_048bf.dir/CMakeCCompilerABI.c.obj' '-c'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd'
-Linking C executable cmTC_048bf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_048bf.dir/link.txt --verbose=1
-/usr/local/vitasdk/bin/arm-vita-eabi-gcc  -Wl,-q  -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_048bf.dir/CMakeCCompilerABI.c.obj -o cmTC_048bf 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_151fc.dir/CMakeCCompilerABI.c.obj' '-c'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd'
+Linking C executable cmTC_151fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_151fc.dir/link.txt --verbose=1
+/usr/local/vitasdk/bin/arm-vita-eabi-gcc  -Wl,-q  -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_151fc.dir/CMakeCCompilerABI.c.obj -o cmTC_151fc 
 Using built-in specs.
 COLLECT_GCC=/usr/local/vitasdk/bin/arm-vita-eabi-gcc
 COLLECT_LTO_WRAPPER=/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/lto-wrapper
@@ -81,10 +81,10 @@ Supported LTO compression algorithms: zlib
 gcc version 10.3.0 (GNU Tools for ARM Embedded Processors) 
 COMPILER_PATH=/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/:/usr/local/vitasdk/bin/../lib/gcc/:/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/bin/
 LIBRARY_PATH=/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/:/usr/local/vitasdk/bin/../lib/gcc/:/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/lib/:/usr/local/vitasdk/bin/../arm-vita-eabi/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_048bf'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd'
- /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/collect2 -plugin /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/liblto_plugin.so -plugin-opt=/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cccflS9w.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lSceRtc_stub -plugin-opt=-pass-through=-lSceSysmem_stub -plugin-opt=-pass-through=-lSceKernelThreadMgr_stub -plugin-opt=-pass-through=-lSceKernelModulemgr_stub -plugin-opt=-pass-through=-lSceIofilemgr_stub -plugin-opt=-pass-through=-lSceProcessmgr_stub -plugin-opt=-pass-through=-lSceLibKernel_stub -plugin-opt=-pass-through=-lSceNet_stub --sysroot=/usr/local/vitasdk/bin/../arm-vita-eabi -X -o cmTC_048bf /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crti.o /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crtbegin.o /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/lib/crt0.o -L/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0 -L/usr/local/vitasdk/bin/../lib/gcc -L/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/lib -L/usr/local/vitasdk/bin/../arm-vita-eabi/lib -q -z nocopyreloc CMakeFiles/cmTC_048bf.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc -lSceRtc_stub -lSceSysmem_stub -lSceKernelThreadMgr_stub -lSceKernelModulemgr_stub -lSceIofilemgr_stub -lSceProcessmgr_stub -lSceLibKernel_stub -lSceNet_stub --end-group /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crtend.o /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_048bf'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd'
-make[1]: Leaving directory '/home/mrrobot/repos/Hello_texture-GLES2-PVR_PSP2/cmake_build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_151fc'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd'
+ /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/collect2 -plugin /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/liblto_plugin.so -plugin-opt=/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccofUt5a.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lSceRtc_stub -plugin-opt=-pass-through=-lSceSysmem_stub -plugin-opt=-pass-through=-lSceKernelThreadMgr_stub -plugin-opt=-pass-through=-lSceKernelModulemgr_stub -plugin-opt=-pass-through=-lSceIofilemgr_stub -plugin-opt=-pass-through=-lSceProcessmgr_stub -plugin-opt=-pass-through=-lSceLibKernel_stub -plugin-opt=-pass-through=-lSceNet_stub --sysroot=/usr/local/vitasdk/bin/../arm-vita-eabi -X -o cmTC_151fc /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crti.o /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crtbegin.o /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/lib/crt0.o -L/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0 -L/usr/local/vitasdk/bin/../lib/gcc -L/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/lib -L/usr/local/vitasdk/bin/../arm-vita-eabi/lib -q -z nocopyreloc CMakeFiles/cmTC_151fc.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc -lSceRtc_stub -lSceSysmem_stub -lSceKernelThreadMgr_stub -lSceKernelModulemgr_stub -lSceIofilemgr_stub -lSceProcessmgr_stub -lSceLibKernel_stub -lSceNet_stub --end-group /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crtend.o /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_151fc'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd'
+make[1]: Leaving directory '/home/mrrobot/repos/Hello_tilemap-GLES2-PVR_PSP2/cmake_build/CMakeFiles/CMakeTmp'
 
 
 
@@ -103,12 +103,12 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-vita-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/mrrobot/repos/Hello_texture-GLES2-PVR_PSP2/cmake_build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/mrrobot/repos/Hello_tilemap-GLES2-PVR_PSP2/cmake_build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_048bf/fast && /usr/bin/make  -f CMakeFiles/cmTC_048bf.dir/build.make CMakeFiles/cmTC_048bf.dir/build]
-  ignore line: [make[1]: Entering directory '/home/mrrobot/repos/Hello_texture-GLES2-PVR_PSP2/cmake_build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_048bf.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [/usr/local/vitasdk/bin/arm-vita-eabi-gcc   -Wl -q    -v -o CMakeFiles/cmTC_048bf.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c]
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_151fc/fast && /usr/bin/make  -f CMakeFiles/cmTC_151fc.dir/build.make CMakeFiles/cmTC_151fc.dir/build]
+  ignore line: [make[1]: Entering directory '/home/mrrobot/repos/Hello_tilemap-GLES2-PVR_PSP2/cmake_build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_151fc.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/local/vitasdk/bin/arm-vita-eabi-gcc   -Wl -q    -v -o CMakeFiles/cmTC_151fc.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/local/vitasdk/bin/arm-vita-eabi-gcc]
   ignore line: [Target: arm-vita-eabi]
@@ -116,8 +116,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 10.3.0 (GNU Tools for ARM Embedded Processors) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_048bf.dir/CMakeCCompilerABI.c.obj' '-c'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd']
-  ignore line: [ /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/cc1 -quiet -v -iprefix /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/ -isysroot /usr/local/vitasdk/bin/../arm-vita-eabi -D__USES_INITFINI__ /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=cortex-a9 -mfloat-abi=hard -mfpu=neon -mthumb -march=armv7-a+simd -auxbase-strip CMakeFiles/cmTC_048bf.dir/CMakeCCompilerABI.c.obj -version -o /tmp/ccaQkq6H.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_151fc.dir/CMakeCCompilerABI.c.obj' '-c'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd']
+  ignore line: [ /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/cc1 -quiet -v -iprefix /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/ -isysroot /usr/local/vitasdk/bin/../arm-vita-eabi -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=cortex-a9 -mfloat-abi=hard -mfpu=neon -mthumb -march=armv7-a+simd -auxbase-strip CMakeFiles/cmTC_151fc.dir/CMakeCCompilerABI.c.obj -version -o /tmp/ccnSDctY.s]
   ignore line: [GNU C17 (GNU Tools for ARM Embedded Processors) version 10.3.0 (arm-vita-eabi)]
   ignore line: [	compiled by GNU C version 4.8.4  GMP version 6.1.2  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.21-GMP]
   ignore line: []
@@ -138,15 +138,15 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 6ade31a181c7c240fa70aa86dad5aa64]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_048bf.dir/CMakeCCompilerABI.c.obj' '-c'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd']
-  ignore line: [ /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_048bf.dir/CMakeCCompilerABI.c.obj /tmp/ccaQkq6H.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_151fc.dir/CMakeCCompilerABI.c.obj' '-c'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd']
+  ignore line: [ /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_151fc.dir/CMakeCCompilerABI.c.obj /tmp/ccnSDctY.s]
   ignore line: [GNU assembler version 2.34 (arm-vita-eabi) using BFD version (GNU Tools for ARM Embedded Processors) 2.34]
   ignore line: [COMPILER_PATH=/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/:/usr/local/vitasdk/bin/../lib/gcc/:/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/bin/]
   ignore line: [LIBRARY_PATH=/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/:/usr/local/vitasdk/bin/../lib/gcc/:/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/lib/:/usr/local/vitasdk/bin/../arm-vita-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_048bf.dir/CMakeCCompilerABI.c.obj' '-c'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd']
-  ignore line: [Linking C executable cmTC_048bf]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_048bf.dir/link.txt --verbose=1]
-  ignore line: [/usr/local/vitasdk/bin/arm-vita-eabi-gcc  -Wl -q  -Wl -z nocopyreloc -v CMakeFiles/cmTC_048bf.dir/CMakeCCompilerABI.c.obj -o cmTC_048bf ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_151fc.dir/CMakeCCompilerABI.c.obj' '-c'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd']
+  ignore line: [Linking C executable cmTC_151fc]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_151fc.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/vitasdk/bin/arm-vita-eabi-gcc  -Wl -q  -Wl -z nocopyreloc -v CMakeFiles/cmTC_151fc.dir/CMakeCCompilerABI.c.obj -o cmTC_151fc ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/local/vitasdk/bin/arm-vita-eabi-gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/lto-wrapper]
@@ -157,13 +157,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 10.3.0 (GNU Tools for ARM Embedded Processors) ]
   ignore line: [COMPILER_PATH=/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/:/usr/local/vitasdk/bin/../lib/gcc/:/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/bin/]
   ignore line: [LIBRARY_PATH=/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/:/usr/local/vitasdk/bin/../lib/gcc/:/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/lib/:/usr/local/vitasdk/bin/../arm-vita-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_048bf'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd']
-  link line: [ /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/collect2 -plugin /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/liblto_plugin.so -plugin-opt=/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cccflS9w.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lSceRtc_stub -plugin-opt=-pass-through=-lSceSysmem_stub -plugin-opt=-pass-through=-lSceKernelThreadMgr_stub -plugin-opt=-pass-through=-lSceKernelModulemgr_stub -plugin-opt=-pass-through=-lSceIofilemgr_stub -plugin-opt=-pass-through=-lSceProcessmgr_stub -plugin-opt=-pass-through=-lSceLibKernel_stub -plugin-opt=-pass-through=-lSceNet_stub --sysroot=/usr/local/vitasdk/bin/../arm-vita-eabi -X -o cmTC_048bf /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crti.o /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crtbegin.o /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/lib/crt0.o -L/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0 -L/usr/local/vitasdk/bin/../lib/gcc -L/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/lib -L/usr/local/vitasdk/bin/../arm-vita-eabi/lib -q -z nocopyreloc CMakeFiles/cmTC_048bf.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc -lSceRtc_stub -lSceSysmem_stub -lSceKernelThreadMgr_stub -lSceKernelModulemgr_stub -lSceIofilemgr_stub -lSceProcessmgr_stub -lSceLibKernel_stub -lSceNet_stub --end-group /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crtend.o /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_151fc'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd']
+  link line: [ /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/collect2 -plugin /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/liblto_plugin.so -plugin-opt=/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccofUt5a.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lSceRtc_stub -plugin-opt=-pass-through=-lSceSysmem_stub -plugin-opt=-pass-through=-lSceKernelThreadMgr_stub -plugin-opt=-pass-through=-lSceKernelModulemgr_stub -plugin-opt=-pass-through=-lSceIofilemgr_stub -plugin-opt=-pass-through=-lSceProcessmgr_stub -plugin-opt=-pass-through=-lSceLibKernel_stub -plugin-opt=-pass-through=-lSceNet_stub --sysroot=/usr/local/vitasdk/bin/../arm-vita-eabi -X -o cmTC_151fc /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crti.o /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crtbegin.o /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/lib/crt0.o -L/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0 -L/usr/local/vitasdk/bin/../lib/gcc -L/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/lib -L/usr/local/vitasdk/bin/../arm-vita-eabi/lib -q -z nocopyreloc CMakeFiles/cmTC_151fc.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc -lSceRtc_stub -lSceSysmem_stub -lSceKernelThreadMgr_stub -lSceKernelModulemgr_stub -lSceIofilemgr_stub -lSceProcessmgr_stub -lSceLibKernel_stub -lSceNet_stub --end-group /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crtend.o /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crtn.o]
     arg [/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cccflS9w.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccofUt5a.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lSceRtc_stub] ==> ignore
@@ -177,7 +177,7 @@ Parsed C implicit link information from above output:
     arg [--sysroot=/usr/local/vitasdk/bin/../arm-vita-eabi] ==> ignore
     arg [-X] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_048bf] ==> ignore
+    arg [cmTC_151fc] ==> ignore
     arg [/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crti.o] ==> obj [/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crti.o]
     arg [/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crtbegin.o] ==> obj [/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crtbegin.o]
     arg [/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/lib/crt0.o] ==> obj [/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/lib/crt0.o]
@@ -187,7 +187,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/local/vitasdk/bin/../arm-vita-eabi/lib] ==> dir [/usr/local/vitasdk/bin/../arm-vita-eabi/lib]
     arg [-q] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_048bf.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [CMakeFiles/cmTC_151fc.dir/CMakeCCompilerABI.c.obj] ==> ignore
     arg [--start-group] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-lc] ==> lib [c]
@@ -218,12 +218,12 @@ Parsed C implicit link information from above output:
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/mrrobot/repos/Hello_texture-GLES2-PVR_PSP2/cmake_build/CMakeFiles/CMakeTmp
+Change Dir: /home/mrrobot/repos/Hello_tilemap-GLES2-PVR_PSP2/cmake_build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_160cf/fast && /usr/bin/make  -f CMakeFiles/cmTC_160cf.dir/build.make CMakeFiles/cmTC_160cf.dir/build
-make[1]: Entering directory '/home/mrrobot/repos/Hello_texture-GLES2-PVR_PSP2/cmake_build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_160cf.dir/CMakeCXXCompilerABI.cpp.obj
-/usr/local/vitasdk/bin/arm-vita-eabi-g++   -Wl,-q    -v -o CMakeFiles/cmTC_160cf.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4b7de/fast && /usr/bin/make  -f CMakeFiles/cmTC_4b7de.dir/build.make CMakeFiles/cmTC_4b7de.dir/build
+make[1]: Entering directory '/home/mrrobot/repos/Hello_tilemap-GLES2-PVR_PSP2/cmake_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4b7de.dir/CMakeCXXCompilerABI.cpp.obj
+/usr/local/vitasdk/bin/arm-vita-eabi-g++   -Wl,-q    -v -o CMakeFiles/cmTC_4b7de.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/local/vitasdk/bin/arm-vita-eabi-g++
 Target: arm-vita-eabi
@@ -231,8 +231,8 @@ Configured with: /__w/autobuilds/autobuilds/buildscripts/build/gcc-final-prefix/
 Thread model: posix
 Supported LTO compression algorithms: zlib
 gcc version 10.3.0 (GNU Tools for ARM Embedded Processors) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_160cf.dir/CMakeCXXCompilerABI.cpp.obj' '-c'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd'
- /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/cc1plus -quiet -v -iprefix /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/ -isysroot /usr/local/vitasdk/bin/../arm-vita-eabi -D__USES_INITFINI__ /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=cortex-a9 -mfloat-abi=hard -mfpu=neon -mthumb -march=armv7-a+simd -auxbase-strip CMakeFiles/cmTC_160cf.dir/CMakeCXXCompilerABI.cpp.obj -version -o /tmp/cc7X8yJL.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4b7de.dir/CMakeCXXCompilerABI.cpp.obj' '-c'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd'
+ /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/cc1plus -quiet -v -iprefix /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/ -isysroot /usr/local/vitasdk/bin/../arm-vita-eabi -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=cortex-a9 -mfloat-abi=hard -mfpu=neon -mthumb -march=armv7-a+simd -auxbase-strip CMakeFiles/cmTC_4b7de.dir/CMakeCXXCompilerABI.cpp.obj -version -o /tmp/cch6w1uS.s
 GNU C++14 (GNU Tools for ARM Embedded Processors) version 10.3.0 (arm-vita-eabi)
 	compiled by GNU C version 4.8.4, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
 
@@ -259,15 +259,15 @@ GNU C++14 (GNU Tools for ARM Embedded Processors) version 10.3.0 (arm-vita-eabi)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 6b30dd7b1f6142788978ee4e37555b65
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_160cf.dir/CMakeCXXCompilerABI.cpp.obj' '-c'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd'
- /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_160cf.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cc7X8yJL.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4b7de.dir/CMakeCXXCompilerABI.cpp.obj' '-c'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd'
+ /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_4b7de.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cch6w1uS.s
 GNU assembler version 2.34 (arm-vita-eabi) using BFD version (GNU Tools for ARM Embedded Processors) 2.34
 COMPILER_PATH=/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/:/usr/local/vitasdk/bin/../lib/gcc/:/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/bin/
 LIBRARY_PATH=/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/:/usr/local/vitasdk/bin/../lib/gcc/:/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/lib/:/usr/local/vitasdk/bin/../arm-vita-eabi/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_160cf.dir/CMakeCXXCompilerABI.cpp.obj' '-c'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd'
-Linking CXX executable cmTC_160cf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_160cf.dir/link.txt --verbose=1
-/usr/local/vitasdk/bin/arm-vita-eabi-g++  -Wl,-q  -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_160cf.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_160cf 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4b7de.dir/CMakeCXXCompilerABI.cpp.obj' '-c'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd'
+Linking CXX executable cmTC_4b7de
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b7de.dir/link.txt --verbose=1
+/usr/local/vitasdk/bin/arm-vita-eabi-g++  -Wl,-q  -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_4b7de.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_4b7de 
 Using built-in specs.
 COLLECT_GCC=/usr/local/vitasdk/bin/arm-vita-eabi-g++
 COLLECT_LTO_WRAPPER=/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/lto-wrapper
@@ -278,10 +278,10 @@ Supported LTO compression algorithms: zlib
 gcc version 10.3.0 (GNU Tools for ARM Embedded Processors) 
 COMPILER_PATH=/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/:/usr/local/vitasdk/bin/../lib/gcc/:/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/bin/
 LIBRARY_PATH=/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/:/usr/local/vitasdk/bin/../lib/gcc/:/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/lib/:/usr/local/vitasdk/bin/../arm-vita-eabi/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_160cf'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd'
- /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/collect2 -plugin /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/liblto_plugin.so -plugin-opt=/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgBPXOF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lSceRtc_stub -plugin-opt=-pass-through=-lSceSysmem_stub -plugin-opt=-pass-through=-lSceKernelThreadMgr_stub -plugin-opt=-pass-through=-lSceKernelModulemgr_stub -plugin-opt=-pass-through=-lSceIofilemgr_stub -plugin-opt=-pass-through=-lSceProcessmgr_stub -plugin-opt=-pass-through=-lSceLibKernel_stub -plugin-opt=-pass-through=-lSceNet_stub --sysroot=/usr/local/vitasdk/bin/../arm-vita-eabi -X -o cmTC_160cf /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crti.o /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crtbegin.o /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/lib/crt0.o -L/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0 -L/usr/local/vitasdk/bin/../lib/gcc -L/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/lib -L/usr/local/vitasdk/bin/../arm-vita-eabi/lib -q -z nocopyreloc CMakeFiles/cmTC_160cf.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc -lSceRtc_stub -lSceSysmem_stub -lSceKernelThreadMgr_stub -lSceKernelModulemgr_stub -lSceIofilemgr_stub -lSceProcessmgr_stub -lSceLibKernel_stub -lSceNet_stub --end-group /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crtend.o /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_160cf'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd'
-make[1]: Leaving directory '/home/mrrobot/repos/Hello_texture-GLES2-PVR_PSP2/cmake_build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4b7de'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd'
+ /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/collect2 -plugin /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/liblto_plugin.so -plugin-opt=/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFmnhR8.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lSceRtc_stub -plugin-opt=-pass-through=-lSceSysmem_stub -plugin-opt=-pass-through=-lSceKernelThreadMgr_stub -plugin-opt=-pass-through=-lSceKernelModulemgr_stub -plugin-opt=-pass-through=-lSceIofilemgr_stub -plugin-opt=-pass-through=-lSceProcessmgr_stub -plugin-opt=-pass-through=-lSceLibKernel_stub -plugin-opt=-pass-through=-lSceNet_stub --sysroot=/usr/local/vitasdk/bin/../arm-vita-eabi -X -o cmTC_4b7de /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crti.o /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crtbegin.o /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/lib/crt0.o -L/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0 -L/usr/local/vitasdk/bin/../lib/gcc -L/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/lib -L/usr/local/vitasdk/bin/../arm-vita-eabi/lib -q -z nocopyreloc CMakeFiles/cmTC_4b7de.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc -lSceRtc_stub -lSceSysmem_stub -lSceKernelThreadMgr_stub -lSceKernelModulemgr_stub -lSceIofilemgr_stub -lSceProcessmgr_stub -lSceLibKernel_stub -lSceNet_stub --end-group /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crtend.o /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4b7de'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd'
+make[1]: Leaving directory '/home/mrrobot/repos/Hello_tilemap-GLES2-PVR_PSP2/cmake_build/CMakeFiles/CMakeTmp'
 
 
 
@@ -306,12 +306,12 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-vita-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/mrrobot/repos/Hello_texture-GLES2-PVR_PSP2/cmake_build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/mrrobot/repos/Hello_tilemap-GLES2-PVR_PSP2/cmake_build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_160cf/fast && /usr/bin/make  -f CMakeFiles/cmTC_160cf.dir/build.make CMakeFiles/cmTC_160cf.dir/build]
-  ignore line: [make[1]: Entering directory '/home/mrrobot/repos/Hello_texture-GLES2-PVR_PSP2/cmake_build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_160cf.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [/usr/local/vitasdk/bin/arm-vita-eabi-g++   -Wl -q    -v -o CMakeFiles/cmTC_160cf.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_4b7de/fast && /usr/bin/make  -f CMakeFiles/cmTC_4b7de.dir/build.make CMakeFiles/cmTC_4b7de.dir/build]
+  ignore line: [make[1]: Entering directory '/home/mrrobot/repos/Hello_tilemap-GLES2-PVR_PSP2/cmake_build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_4b7de.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/usr/local/vitasdk/bin/arm-vita-eabi-g++   -Wl -q    -v -o CMakeFiles/cmTC_4b7de.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/local/vitasdk/bin/arm-vita-eabi-g++]
   ignore line: [Target: arm-vita-eabi]
@@ -319,8 +319,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 10.3.0 (GNU Tools for ARM Embedded Processors) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_160cf.dir/CMakeCXXCompilerABI.cpp.obj' '-c'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd']
-  ignore line: [ /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/cc1plus -quiet -v -iprefix /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/ -isysroot /usr/local/vitasdk/bin/../arm-vita-eabi -D__USES_INITFINI__ /usr/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=cortex-a9 -mfloat-abi=hard -mfpu=neon -mthumb -march=armv7-a+simd -auxbase-strip CMakeFiles/cmTC_160cf.dir/CMakeCXXCompilerABI.cpp.obj -version -o /tmp/cc7X8yJL.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4b7de.dir/CMakeCXXCompilerABI.cpp.obj' '-c'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd']
+  ignore line: [ /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/cc1plus -quiet -v -iprefix /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/ -isysroot /usr/local/vitasdk/bin/../arm-vita-eabi -D__USES_INITFINI__ /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=cortex-a9 -mfloat-abi=hard -mfpu=neon -mthumb -march=armv7-a+simd -auxbase-strip CMakeFiles/cmTC_4b7de.dir/CMakeCXXCompilerABI.cpp.obj -version -o /tmp/cch6w1uS.s]
   ignore line: [GNU C++14 (GNU Tools for ARM Embedded Processors) version 10.3.0 (arm-vita-eabi)]
   ignore line: [	compiled by GNU C version 4.8.4  GMP version 6.1.2  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.21-GMP]
   ignore line: []
@@ -347,15 +347,15 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 6b30dd7b1f6142788978ee4e37555b65]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_160cf.dir/CMakeCXXCompilerABI.cpp.obj' '-c'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd']
-  ignore line: [ /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_160cf.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cc7X8yJL.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4b7de.dir/CMakeCXXCompilerABI.cpp.obj' '-c'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd']
+  ignore line: [ /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_4b7de.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cch6w1uS.s]
   ignore line: [GNU assembler version 2.34 (arm-vita-eabi) using BFD version (GNU Tools for ARM Embedded Processors) 2.34]
   ignore line: [COMPILER_PATH=/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/:/usr/local/vitasdk/bin/../lib/gcc/:/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/bin/]
   ignore line: [LIBRARY_PATH=/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/:/usr/local/vitasdk/bin/../lib/gcc/:/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/lib/:/usr/local/vitasdk/bin/../arm-vita-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_160cf.dir/CMakeCXXCompilerABI.cpp.obj' '-c'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd']
-  ignore line: [Linking CXX executable cmTC_160cf]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_160cf.dir/link.txt --verbose=1]
-  ignore line: [/usr/local/vitasdk/bin/arm-vita-eabi-g++  -Wl -q  -Wl -z nocopyreloc -v CMakeFiles/cmTC_160cf.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_160cf ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4b7de.dir/CMakeCXXCompilerABI.cpp.obj' '-c'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd']
+  ignore line: [Linking CXX executable cmTC_4b7de]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b7de.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/vitasdk/bin/arm-vita-eabi-g++  -Wl -q  -Wl -z nocopyreloc -v CMakeFiles/cmTC_4b7de.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_4b7de ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/local/vitasdk/bin/arm-vita-eabi-g++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/lto-wrapper]
@@ -366,13 +366,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 10.3.0 (GNU Tools for ARM Embedded Processors) ]
   ignore line: [COMPILER_PATH=/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/:/usr/local/vitasdk/bin/../lib/gcc/:/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/bin/]
   ignore line: [LIBRARY_PATH=/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/:/usr/local/vitasdk/bin/../lib/gcc/:/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/lib/:/usr/local/vitasdk/bin/../arm-vita-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_160cf'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd']
-  link line: [ /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/collect2 -plugin /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/liblto_plugin.so -plugin-opt=/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgBPXOF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lSceRtc_stub -plugin-opt=-pass-through=-lSceSysmem_stub -plugin-opt=-pass-through=-lSceKernelThreadMgr_stub -plugin-opt=-pass-through=-lSceKernelModulemgr_stub -plugin-opt=-pass-through=-lSceIofilemgr_stub -plugin-opt=-pass-through=-lSceProcessmgr_stub -plugin-opt=-pass-through=-lSceLibKernel_stub -plugin-opt=-pass-through=-lSceNet_stub --sysroot=/usr/local/vitasdk/bin/../arm-vita-eabi -X -o cmTC_160cf /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crti.o /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crtbegin.o /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/lib/crt0.o -L/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0 -L/usr/local/vitasdk/bin/../lib/gcc -L/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/lib -L/usr/local/vitasdk/bin/../arm-vita-eabi/lib -q -z nocopyreloc CMakeFiles/cmTC_160cf.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc -lSceRtc_stub -lSceSysmem_stub -lSceKernelThreadMgr_stub -lSceKernelModulemgr_stub -lSceIofilemgr_stub -lSceProcessmgr_stub -lSceLibKernel_stub -lSceNet_stub --end-group /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crtend.o /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4b7de'  '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb' '-march=armv7-a+simd']
+  link line: [ /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/collect2 -plugin /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/liblto_plugin.so -plugin-opt=/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFmnhR8.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lSceRtc_stub -plugin-opt=-pass-through=-lSceSysmem_stub -plugin-opt=-pass-through=-lSceKernelThreadMgr_stub -plugin-opt=-pass-through=-lSceKernelModulemgr_stub -plugin-opt=-pass-through=-lSceIofilemgr_stub -plugin-opt=-pass-through=-lSceProcessmgr_stub -plugin-opt=-pass-through=-lSceLibKernel_stub -plugin-opt=-pass-through=-lSceNet_stub --sysroot=/usr/local/vitasdk/bin/../arm-vita-eabi -X -o cmTC_4b7de /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crti.o /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crtbegin.o /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/lib/crt0.o -L/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0 -L/usr/local/vitasdk/bin/../lib/gcc -L/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/lib -L/usr/local/vitasdk/bin/../arm-vita-eabi/lib -q -z nocopyreloc CMakeFiles/cmTC_4b7de.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc -lSceRtc_stub -lSceSysmem_stub -lSceKernelThreadMgr_stub -lSceKernelModulemgr_stub -lSceIofilemgr_stub -lSceProcessmgr_stub -lSceLibKernel_stub -lSceNet_stub --end-group /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crtend.o /usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crtn.o]
     arg [/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccgBPXOF.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccFmnhR8.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lSceRtc_stub] ==> ignore
@@ -386,7 +386,7 @@ Parsed CXX implicit link information from above output:
     arg [--sysroot=/usr/local/vitasdk/bin/../arm-vita-eabi] ==> ignore
     arg [-X] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_160cf] ==> ignore
+    arg [cmTC_4b7de] ==> ignore
     arg [/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crti.o] ==> obj [/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crti.o]
     arg [/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crtbegin.o] ==> obj [/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/crtbegin.o]
     arg [/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/lib/crt0.o] ==> obj [/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/10.3.0/../../../../arm-vita-eabi/lib/crt0.o]
@@ -396,7 +396,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/local/vitasdk/bin/../arm-vita-eabi/lib] ==> dir [/usr/local/vitasdk/bin/../arm-vita-eabi/lib]
     arg [-q] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_160cf.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [CMakeFiles/cmTC_4b7de.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [--start-group] ==> ignore

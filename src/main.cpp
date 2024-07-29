@@ -13,6 +13,7 @@ extern "C"
 
 	#include <psp2/ctrl.h>
     #include <psp2/io/fcntl.h>
+    #include <psp2/kernel/sysmem.h> 
 }
 
 #include <cmath>
@@ -20,12 +21,20 @@ extern "C"
 #include <string>
 #include <cstring>
 #include "stb_image.h"
+#include <inttypes.h>
+
+//tmx
+#include <tmxlite/Map.hpp>
+#include <tmxlite/Layer.hpp>
+#include <tmxlite/TileLayer.hpp>
+#include <tmxlite/Tileset.hpp>
+#include <tmxlite/ObjectGroup.hpp>
 
 using namespace std;
 
 //SCE
-int _newlib_heap_size_user   = 16 * 1024 * 1024;
-unsigned int sceLibcHeapSize = 3 * 1024 * 1024;
+int _newlib_heap_size_user   = 192 * 1024 * 1024;
+unsigned int sceLibcHeapSize = 32 * 1024 * 1024;
 unsigned int VBO, EBO;
 
 //EGL
@@ -65,21 +74,21 @@ static GLuint texLoc;
 int width, height, nrChannels;
 unsigned char *data;
 unsigned int texture;
-const char* textpath = "app0:images/wall.jpg";
+const char* textpath = "app0:images/tile_atlas_square_v2.png";
 
 
 static EGLint surface_width, surface_height;
 
 float vertices[] = {
-     0.5f,  -0.5f, 0.0f,     1.0f, 0.0f, 0.0f,   1.0f, 0.0f, 
-     0.5f, 0.5f, 0.0f,       0.0f, 1.0f, 0.0f,   1.0f, 1.0f, 
-    -0.5f, 0.5f, 0.0f,       0.0f, 0.0f, 1.0f,   0.0f, 1.0f,
-    -0.5f,  -0.5f, 0.0f,     1.0f, 0.0f, 0.5f,   0.0f, 0.0f 
+     1.0f,  -1.0f, 0.0f,     1.0f, 0.0f, 0.0f,   0.1f, 0.0f, 
+     1.0f, 1.0f, 0.0f,       0.0f, 1.0f, 0.0f,   0.1f, 0.1f, 
+    -1.0f, 1.0f, 0.0f,       0.0f, 0.0f, 1.0f,   0.0f, 0.1f,
+    -1.0f,  -1.0f, 0.0f,     1.0f, 0.0f, 0.5f,   0.0f, 0.0f 
 };
 unsigned int indices[] = {  // note that we start from 0!
     0, 1, 2,   // first triangle
     2, 3, 0    // second triangle
-}; 
+};
 
 /* Define our GLSL shader here. They will be compiled at runtime */
 const GLchar vShaderStr[] =
@@ -128,7 +137,7 @@ GLuint LoadShader(const GLchar *shaderSrc, GLenum type, GLint *size)
 
     glShaderSource(shader, 1, &shaderSrc, size);
 
-    sceClibPrintf("Compiling Shader: %s...\n", shaderSrc);
+    //sceClibPrintf("Compiling Shader: %s...\n", shaderSrc);
     glCompileShader(shader);
 
     glGetShaderiv(shader, GL_COMPILE_STATUS, &compiled);
@@ -262,6 +271,7 @@ int ReadFile(const char* path, unsigned char **buffer, SceOff &size) {
     }
         
     size = sceIoLseek(file, 0, SEEK_END);
+    sceClibPrintf("Image size:" "%" PRId64 "MiB \n", ((size)/1024)/1024);
     *buffer = new unsigned char[size];
 
     ret = sceIoPread(file, *buffer, size, SCE_SEEK_SET);
@@ -280,17 +290,17 @@ int ReadFile(const char* path, unsigned char **buffer, SceOff &size) {
 
 void loadTextures(void){
     //load image into memory
-    //SceOff size = 0;
-    //unsigned char *data = nullptr;
+    SceOff size = 0;
+    unsigned char *data = nullptr;
     unsigned char *image = nullptr;
-    /*int res = ReadFile(textpath, &data, size);
+    int res = ReadFile(textpath, &data, size);
     if (res != 0) {
         sceClibPrintf("Error loading raw file to memory.\n");
     }
-
-    image = stbi_load_from_memory(data, size, &width, &height, nullptr, 4);*/
-    image = stbi_load(textpath, &width, &height, nullptr, 0);
-    sceClibPrintf("Image dimensions: %d x %d. Code: %s.\n", width, height, stbi_failure_reason());
+    stbi_set_flip_vertically_on_load(true);
+    image = stbi_load_from_memory(data, size, &width, &height, &nrChannels, 4);
+    //image = stbi_load(textpath, &width, &height, &nrChannels, 4);
+    sceClibPrintf("Image dimensions: %d x %d. Channels: %d. Code: %s.\n", width, height, nrChannels, stbi_failure_reason());
         
     //initialize texture    
     glGenTextures(1, &texture);    
@@ -306,7 +316,7 @@ void loadTextures(void){
 
     if (image)
     {
-        glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, image);
+        glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, image);
         glGenerateMipmap(GL_TEXTURE_2D);
         sceClibPrintf("Texture load OK.\n");
     } else {
@@ -388,6 +398,9 @@ void EGLInit()
 	 
 	glEnable(GL_CULL_FACE);
 
+    glEnable(GL_BLEND);
+    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);    
+
 	sceClibPrintf("EGL init OK.\n");
 
     const GLubyte *renderer = glGetString( GL_RENDERER ); 
@@ -415,6 +428,55 @@ void SCEInit()
 	sceClibPrintf("SCE init OK\n");
 }
 
+void LoadTileMap(){
+    tmx::Map map;
+    if(map.load("app0:assets/tileset_demo1.tmx"))
+    {
+        const auto& layers = map.getLayers();
+        for(const auto& layer : layers)
+        {
+            if(layer->getType() == tmx::Layer::Type::Object)
+            {
+                const auto& objectLayer = layer->getLayerAs<tmx::ObjectGroup>();
+                const auto& objects = objectLayer.getObjects();
+                for(const auto& object : objects)
+                {
+                    sceClibPrintf("do stuff with object properties\n");
+                }
+            }
+            else if(layer->getType() == tmx::Layer::Type::Tile)
+            {
+                const auto& tileLayer = layer->getLayerAs<tmx::TileLayer>();
+                sceClibPrintf("Read out tile layer properties etc...\n");
+                for(const auto& tile : tileLayer.getTiles()){
+                    sceClibPrintf(" %" PRIu32 " ", tile.ID);
+                }
+                sceClibPrintf("\n");
+            }
+        }
+        std::string imgpath;
+        const auto& tilesets = map.getTilesets();
+        for(const auto& tileset : tilesets)
+        {
+            imgpath = tileset.getImagePath();
+            tmx::Vector2<unsigned int> tiledim = tileset.getTileSize();
+            sceClibPrintf("Read out tile set properties, load textures etc...\n");
+            sceClibPrintf("Tileset filename: %s\n", imgpath.c_str());
+            sceClibPrintf("Image dimensions: %d x %d\n", tiledim.x, tiledim.y);
+        }
+    }    
+}
+
+void GetBudgetInfo(){
+    SceKernelFreeMemorySizeInfo info;    
+    info.size = sizeof(SceKernelFreeMemorySizeInfo);
+    int res = sceKernelGetFreeMemorySize(&info);
+	sceClibPrintf("Free memory for main application:\n");
+	sceClibPrintf("LPDDR2: %d MiB\n", info.size_user / 1024 / 1024);
+	sceClibPrintf("CDRAM: %d MiB\n", info.size_cdram / 1024 / 1024);
+	sceClibPrintf("PHYCONT: %d MiB\n\n", info.size_phycont / 1024 / 1024);
+}
+
 int main()
 {
 	ModuleInit();
@@ -423,10 +485,12 @@ int main()
 
 	SCEInit();
 	sceClibPrintf("All init OK.\n");
+    LoadTileMap();
+    GetBudgetInfo();
 
 	initShaders();
 	initvbos();
-	loadTextures();
+	loadTextures();    
 	while(1)
 	{
 	    render();

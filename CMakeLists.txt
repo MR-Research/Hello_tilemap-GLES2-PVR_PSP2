@@ -8,15 +8,15 @@ if(NOT DEFINED CMAKE_TOOLCHAIN_FILE)
   endif()
 endif()
 
-project(Hello_texture-GLES2-PVR_PSP2)
+project(Hello_tilemap-GLES2-PVR_PSP2)
 include("${VITASDK}/share/vita.cmake" REQUIRED)
 
-set(VITA_APP_NAME "Hello Texture GL")
-set(VITA_TITLEID  "PVRD00005")
-set(VITA_VERSION  "01.00")
+set(VITA_APP_NAME "Hello Tilemap GL")
+set(VITA_TITLEID  "PVRD00006")
+set(VITA_VERSION  "01.01")
 
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall")
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -std=c++11")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -std=c++14")
 set(VITA_MKSFOEX_FLAGS "${VITA_MKSFOEX_FLAGS} -d PARENTAL_LEVEL=1")
 set(VITA_MKSFOEX_FLAGS "${VITA_MKSFOEX_FLAGS} -d ATTRIBUTE2=12")
 
@@ -42,12 +42,16 @@ target_link_libraries(${PROJECT_NAME}
   #SCE
   SceCtrl_stub
   SceDisplay_stub
+  SceSysmem_stub
     
   #PVR_PSP2
   libIMGEGL_stub_weak
   libgpu_es4_ext_stub_weak
   libGLESv2_stub_weak
   m
+
+  #tmxlite
+  tmxlite_psvita
 )
 
 ## Create Vita files
@@ -71,6 +75,9 @@ vita_create_vpk(${PROJECT_NAME}.vpk ${VITA_TITLEID} ${PROJECT_NAME}.self
   FILE module/libpvrPSP2_WSEGL.suprx module/libpvrPSP2_WSEGL.suprx
 
   #textures
-  FILE images/container.jpg images/container.jpg
-  FILE images/wall.jpg images/wall.jpg
+  FILE images/tile_atlas_square_v2.png images/tile_atlas_square_v2.png
+
+  #assets
+  FILE assets/tileset_demo1.tmx assets/tileset_demo1.tmx
+  FILE assets/tileset_square_v2.tsx assets/tileset_square_v2.tsx
 )
